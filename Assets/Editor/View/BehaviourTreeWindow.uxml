@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/View/BehaviourTreeWindow.uss?fileID=7433441132597879392&amp;guid=654225a91b6bf2e46b37f31f61e00ac5&amp;type=3#BehaviourTreeWindow" />
+    <qjklw.Editors.SplitView fixed-pane-initial-dimension="300">
+        <ui:VisualElement name="left" style="flex-grow: 1; width: 289px; -unity-background-image-tint-color: rgb(255, 255, 255);">
+            <ui:Label text="Inspector" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="background-color: rgb(32, 32, 32); color: rgb(196, 196, 196); margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 3px; padding-right: 0; padding-bottom: 2px; padding-left: 5px; -unity-text-align: upper-left; font-size: 16px; -unity-font-style: bold;" />
+            <qjklw.Editors.InspectorView style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right" focusable="true" class="graphView" style="flex-grow: 1; flex-shrink: 1; background-color: rgb(32, 32, 32); -unity-background-image-tint-color: rgb(255, 255, 255);">
+            <qjklw.Editors.TreeView name="TreeView" style="-unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0); height: auto; align-items: stretch; flex-grow: 1;" />
+        </ui:VisualElement>
+    </qjklw.Editors.SplitView>
+</ui:UXML>

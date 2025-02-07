@@ -1,0 +1,712 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.50f1c1 (11690e56caf9) revision 1141006'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16010 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Editor\2022.3.50f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Unity/Project/JustTest
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51950
+Successfully changed project path to: E:/Unity/Project/JustTest
+E:/Unity/Project/JustTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [42716]  Target information:
+
+Player connection [42716]  * "[IP] 26.192.160.31 [Port] 0 [Flags] 2 [Guid] 3981823990 [EditorId] 3981823990 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42716]  * "[IP] 192.168.6.1 [Port] 0 [Flags] 2 [Guid] 3981823990 [EditorId] 3981823990 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42716]  * "[IP] 192.168.246.1 [Port] 0 [Flags] 2 [Guid] 3981823990 [EditorId] 3981823990 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42716]  * "[IP] 192.168.1.32 [Port] 0 [Flags] 2 [Guid] 3981823990 [EditorId] 3981823990 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [42716] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [42716] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 14.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1c1 (11690e56caf9)
+[Subsystems] Discovering subsystems at path E:/Unity/Editor/2022.3.50f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Project/JustTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'E:/Unity/Editor/2022.3.50f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Editor/2022.3.50f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Editor/2022.3.50f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Editor/2022.3.50f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/Editor/2022.3.50f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006249 seconds.
+- Loaded All Assemblies, in  0.291 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 534ms
+	BeginReloadAssembly (78ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (116ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (202ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.697 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.012 seconds
+Domain Reload Profiling: 1709ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (902ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (477.5 KB). Loaded Objects now: 6827.
+Memory consumption went from 286.2 MB to 285.7 MB.
+Total: 4.825900 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.140600 ms MarkObjects: 4.039100 ms  DeleteObjects: 0.293100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/BehaviourTreeEx.cs: 59b32cb9024f1d889c46d6d7ff976da4 -> 85986cba6d7ee9b8306dead9773f1b67
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48387.918793 seconds.
+  path: Assets/Scripts/BehaviourTree/BehaviourTreeSO/BTData.asset
+  artifactKey: Guid(1da3bfc07c6819b41a96ac1827557398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BehaviourTree/BehaviourTreeSO/BTData.asset using Guid(1da3bfc07c6819b41a96ac1827557398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '02b4f6fbd146577f0e589d7a7b3eda00') in 0.031105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 56.471553 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/CubeRoup.prefab
+  artifactKey: Guid(1950e99f479bef04581d5185a7cf27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/CubeRoup.prefab using Guid(1950e99f479bef04581d5185a7cf27b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'adeed997798c37a5e6fa689d1b0bbd19') in 0.257658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_KAGURA.prefab
+  artifactKey: Guid(94ed6a8f5c3a2ba4d8c93972af7467f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/UI_KAGURA.prefab using Guid(94ed6a8f5c3a2ba4d8c93972af7467f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bb8061b014621d400ede5da60a68e348') in 0.030611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Stage.prefab
+  artifactKey: Guid(23be23f56fcb4ac48ac4de26c111e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Stage.prefab using Guid(23be23f56fcb4ac48ac4de26c111e332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1956871a46816efb06c39dd8f8b41610') in 0.023111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/SimpleImputManager.prefab
+  artifactKey: Guid(e35153ae4a19fa24289b796a4290d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/SimpleImputManager.prefab using Guid(e35153ae4a19fa24289b796a4290d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ee7f6f2edd40addb7e09946d5561d293') in 0.010200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.349884 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Jump_Air/CLazy@WpJAttack_AirDrop_All.FBX
+  artifactKey: Guid(5f9000d73ecdba04097d2bc4fe1eb33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Jump_Air/CLazy@WpJAttack_AirDrop_All.FBX using Guid(5f9000d73ecdba04097d2bc4fe1eb33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '221df6acb3120878cf5e54979816de83') in 0.123103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Jump_Air/CLazy@WpJAttack_AirSwing_Keep.FBX
+  artifactKey: Guid(06306af089d828d42b8d956986d0566c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Jump_Air/CLazy@WpJAttack_AirSwing_Keep.FBX using Guid(06306af089d828d42b8d956986d0566c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1c466df336f298c0b893f5fc643064d3') in 0.028328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Battle/Inplace/Lucy_Air_Attack_02_Inplace.FBX
+  artifactKey: Guid(6017eabfaa93aa043a9a52d66681fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Battle/Inplace/Lucy_Air_Attack_02_Inplace.FBX using Guid(6017eabfaa93aa043a9a52d66681fbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f3bf015d087d09819b8660c7324bf11a') in 0.014203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Battle/Inplace/Lucy_Air_Attack_Combo01_1_Inplace.FBX
+  artifactKey: Guid(9a831af873e390444b63a6284aa04820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Battle/Inplace/Lucy_Air_Attack_Combo01_1_Inplace.FBX using Guid(9a831af873e390444b63a6284aa04820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cc819d164202962708fa2d3e7e6de5e8') in 0.014903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Jump_Air/CLazy@WpJAttack_AirSwing_Start.FBX
+  artifactKey: Guid(862b2a1105d0db04c862f29bddb2a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Jump_Air/CLazy@WpJAttack_AirSwing_Start.FBX using Guid(862b2a1105d0db04c862f29bddb2a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '00589f88cc6ffd085fef9170b83a9b56') in 0.026044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 2.290808 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Battle/Inplace/Lucy_Air_Attack_Combo02_1_Inplace.FBX
+  artifactKey: Guid(9553ed4c1ac6fe341b64e6d50cc239f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Battle/Inplace/Lucy_Air_Attack_Combo02_1_Inplace.FBX using Guid(9553ed4c1ac6fe341b64e6d50cc239f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5cbc6d3186e896f7b78dc7aac48ee4cc') in 0.011300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.437483 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Execution/Inplace/Lucy_Execution10_Inplace.FBX
+  artifactKey: Guid(d37766e863e0b0b4d9f94da222db5685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Execution/Inplace/Lucy_Execution10_Inplace.FBX using Guid(d37766e863e0b0b4d9f94da222db5685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bec554178a0ac876b02c32a0001d2819') in 0.013755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.005151 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Execution/Inplace/Lucy_Execution11_Inplace.FBX
+  artifactKey: Guid(525b64b3e56ad2d40af5af40e892cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Execution/Inplace/Lucy_Execution11_Inplace.FBX using Guid(525b64b3e56ad2d40af5af40e892cee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '66a7dd7c31e1022f9278f5cd48d36dd6') in 0.013481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.005582 seconds.
+  path: Assets/Animation/AnimationClip/Lucy/Animation/Execution/Inplace/Lucy_Execution12_Inplace.FBX
+  artifactKey: Guid(2359d2d2b9f97da48a582c45ecf37853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/AnimationClip/Lucy/Animation/Execution/Inplace/Lucy_Execution12_Inplace.FBX using Guid(2359d2d2b9f97da48a582c45ecf37853) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c3582e1bd48a3c348c9012dbe01d83a2') in 0.014844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.008806 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Execution/Inplace/Lucy_Execution13_Inplace.FBX
+  artifactKey: Guid(1ee9a6238093ee94c906d5eeaccbfee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Execution/Inplace/Lucy_Execution13_Inplace.FBX using Guid(1ee9a6238093ee94c906d5eeaccbfee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dd55063b55849341da688a46183ef9e5') in 0.022145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 66.037126 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Cube.prefab
+  artifactKey: Guid(baaebd372fee4154e9b08570bc3a230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/Cube.prefab using Guid(baaebd372fee4154e9b08570bc3a230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4a648cd0e546e059182a2f89fbc4c347') in 0.007302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.006917 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/RuntimeDressUpDemo.prefab
+  artifactKey: Guid(bca76fc2423c0a14db7d44f7745ab286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/Common/Prefabs/RuntimeDressUpDemo.prefab using Guid(bca76fc2423c0a14db7d44f7745ab286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '76ff0f9397fa10ee5612c11d8616b90f') in 0.022870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 509
+========================================================================
+Received Import Request.
+  Time since last request: 5.614676 seconds.
+  path: Assets/Animation/AnimationClip/Lucy/Animation/Die/Root/Lucy_Die18_Root.FBX
+  artifactKey: Guid(c745c12dc59c14845be1dbc0ecba9dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/AnimationClip/Lucy/Animation/Die/Root/Lucy_Die18_Root.FBX using Guid(c745c12dc59c14845be1dbc0ecba9dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '154862c0c11e52e17fbc73e92a3de562') in 0.012961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.002142 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Dodge/Root/Lucy_Dodge_R_Root.FBX
+  artifactKey: Guid(4b5ee6d6531a07c429c46e3734eb3b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Dodge/Root/Lucy_Dodge_R_Root.FBX using Guid(4b5ee6d6531a07c429c46e3734eb3b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '945d08110c8265e1af091ebd19c20ece') in 0.011137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.364066 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Execution/Sample/Lucy_Executed11_Sample.FBX
+  artifactKey: Guid(f0f23ae96d93b3540864a111c3f18706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Execution/Sample/Lucy_Executed11_Sample.FBX using Guid(f0f23ae96d93b3540864a111c3f18706) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8ab63aaab561f2a0249df4ae4bcac50b') in 0.012447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.000789 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Execution/Sample/Lucy_Executed12_Sample.FBX
+  artifactKey: Guid(76340e35b71168647abacdd684d4ec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Execution/Sample/Lucy_Executed12_Sample.FBX using Guid(76340e35b71168647abacdd684d4ec70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6f7d1e0c0de58f8a8dffe44b1eeb2dfd') in 0.011624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.003584 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Execution/Sample/Lucy_Executed13_Sample.FBX
+  artifactKey: Guid(8dc3a621d58649b4cad22aaa6285a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Execution/Sample/Lucy_Executed13_Sample.FBX using Guid(8dc3a621d58649b4cad22aaa6285a003) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ff30b2f3133c38e3621cdd8541f6c22c') in 0.013841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 56.732588 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Hand_All.FBX
+  artifactKey: Guid(a76532d7d558aa64484348e7861aa934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Hand_All.FBX using Guid(a76532d7d558aa64484348e7861aa934) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b58c4b0cb1cdb4bca2d2b112f14c3732') in 0.028372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Rolling.FBX
+  artifactKey: Guid(def280b1ebbfb334bbaed8fabbb30262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Rolling.FBX using Guid(def280b1ebbfb334bbaed8fabbb30262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7aacf501be69c3c3f44a78c89db1385b') in 0.027387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Rolling_Root.FBX
+  artifactKey: Guid(0799700f6bd020d4faf844825a8f9848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Rolling_Root.FBX using Guid(0799700f6bd020d4faf844825a8f9848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'acb3e75dab96480cd4122feafe9cf3ef') in 0.029198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.004245 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Vertical/CLazy@Wall_Vertical_Exit_Stop.FBX
+  artifactKey: Guid(677489acd41acee4d9e88b4d812dda10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Vertical/CLazy@Wall_Vertical_Exit_Stop.FBX using Guid(677489acd41acee4d9e88b4d812dda10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dbba383227484020e796e1a592efb453') in 0.026802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Hand_2L.FBX
+  artifactKey: Guid(3f5af7597f38cb7459fca1062f257f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Hand_2L.FBX using Guid(3f5af7597f38cb7459fca1062f257f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3f906d66d25b05d9ca2fda46c2733d84') in 0.030597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Hand_1R_Root.FBX
+  artifactKey: Guid(b11c6a5d07a21e942a20ba67372a5152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P4_CLazyAttack/Attack_Wp_Swing_Run/CLazy@WpAttack_Hand_1R_Root.FBX using Guid(b11c6a5d07a21e942a20ba67372a5152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '79970a4df2db98dd99f0f696d61ab61f') in 0.029349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.045435 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Vertical/CLazy@Wall_Vertical_Boost_Loop_Root.FBX
+  artifactKey: Guid(ec15966cebbc2284bb67b158480bbb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Vertical/CLazy@Wall_Vertical_Boost_Loop_Root.FBX using Guid(ec15966cebbc2284bb67b158480bbb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '328c8f7cb96b2641f06cfecba09ac567') in 0.026994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Vertical/CLazy@Wall_Vertical_Dash_Loop_Root.FBX
+  artifactKey: Guid(1ee15a6b9e7630549aee9c2f590dcee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Vertical/CLazy@Wall_Vertical_Dash_Loop_Root.FBX using Guid(1ee15a6b9e7630549aee9c2f590dcee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4f80ebee66218ce5075dde0ea88d48fd') in 0.027767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.014329 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Hold/CLazy@Wall_LHold_Stop.FBX
+  artifactKey: Guid(be024a6b68d3bd64c9d354ece18f72bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Hold/CLazy@Wall_LHold_Stop.FBX using Guid(be024a6b68d3bd64c9d354ece18f72bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1b724905cbecc8b32ed5473a1810bf1b') in 0.025912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Low_Dash/CLazy@Wall_RDash_Start.FBX
+  artifactKey: Guid(c74e20c3c5662ea45baf9d49a6f2fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Low_Dash/CLazy@Wall_RDash_Start.FBX using Guid(c74e20c3c5662ea45baf9d49a6f2fe76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b4a79289816cde4b4b1b8e9d644a97bf') in 0.024348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Hold/CLazy@Wall_RHold_Start.FBX
+  artifactKey: Guid(73123cb6034b60d4986666b6462952fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Hold/CLazy@Wall_RHold_Start.FBX using Guid(73123cb6034b60d4986666b6462952fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2ad1068266effc6cbdd30e4872fda742') in 0.024461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Low_Dash/CLazy@Wall_RJump_Start.FBX
+  artifactKey: Guid(58f2b14cb423fa749960f37943b990ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Low_Dash/CLazy@Wall_RJump_Start.FBX using Guid(58f2b14cb423fa749960f37943b990ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f421765f3bc8b889594cd5f144137aca') in 0.026725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.083234 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_All_R.FBX
+  artifactKey: Guid(b4c550ae65654e64c9862c8fd8eb074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_All_R.FBX using Guid(b4c550ae65654e64c9862c8fd8eb074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fb6aec1d8a156571357e70d1c550d7b4') in 0.027162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_All_R_Up_Root.FBX
+  artifactKey: Guid(1985d924403a53742b31fbdd1a9c84b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_All_R_Up_Root.FBX using Guid(1985d924403a53742b31fbdd1a9c84b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6208ccb25a57ec2a9494dfd9e3a5c0f5') in 0.024251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_Start_R.FBX
+  artifactKey: Guid(11c32fcd979f14c4098c01864857a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_Start_R.FBX using Guid(11c32fcd979f14c4098c01864857a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '365df307f064f096b8b15595171d5dc0') in 0.025539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Hold/CLazy@Wall_LHold.FBX
+  artifactKey: Guid(c48f3d6be8b700741b4586aa65268ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallRun_Hold/CLazy@Wall_LHold.FBX using Guid(c48f3d6be8b700741b4586aa65268ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9f543304b999a791f4d9138604e8e2b7') in 0.030039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.005477 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Cross_Start_L.FBX
+  artifactKey: Guid(7050669789ad1334da3077aae1fa56d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Cross_Start_L.FBX using Guid(7050669789ad1334da3077aae1fa56d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b21ec798fc94dda96d74f32de7678795') in 0.024616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Exit_L.FBX
+  artifactKey: Guid(72de5afd7a354f34faf7485f0214ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Exit_L.FBX using Guid(72de5afd7a354f34faf7485f0214ec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9e53d95dc89d50468f8451b26d5321f2') in 0.025487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_Air_L.FBX
+  artifactKey: Guid(31aa0711ea7cb1c4aa12e2e4bfca3d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_Air_L.FBX using Guid(31aa0711ea7cb1c4aa12e2e4bfca3d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'aacb2c6261bcc0dd4987e77b1f12dcdd') in 0.024992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_All_L_Root.FBX
+  artifactKey: Guid(807047976a18c47489b333ffff9a22ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P6_CLazyWallRun/WallJump_Cross/CLazy@Wall_Jump_Turn_All_L_Root.FBX using Guid(807047976a18c47489b333ffff9a22ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5264e3fc6b2e93c7a28e5f32395d4df4') in 0.030271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 1.601607 seconds.
+  path: Assets/Third Parts/Lucy/Animation/Dodge/Inplace/Lucy_Slide_B_Inplace.FBX
+  artifactKey: Guid(879c042211db9e34a855ea9eb746181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Lucy/Animation/Dodge/Inplace/Lucy_Slide_B_Inplace.FBX using Guid(879c042211db9e34a855ea9eb746181f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '452cc61a45c69720da8ac8b6da205d56') in 0.014663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 251
+========================================================================
+Received Import Request.
+  Time since last request: 0.406525 seconds.
+  path: Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Back_BW_Rolling_StandUp.FBX
+  artifactKey: Guid(6d8b0198da32b234ab03b6a0caa62cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Back_BW_Rolling_StandUp.FBX using Guid(6d8b0198da32b234ab03b6a0caa62cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '352db31f52d4a328723bafbb51be5e2b') in 0.013345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 315
+========================================================================
+Received Import Request.
+  Time since last request: 0.007037 seconds.
+  path: Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Back_Smash.FBX
+  artifactKey: Guid(039d3f2c288655645886ee5134b00ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Back_Smash.FBX using Guid(039d3f2c288655645886ee5134b00ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '048d602e91e6dbc986b07153f3059bbc') in 0.008490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.003206 seconds.
+  path: Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_Big.FBX
+  artifactKey: Guid(048cc648efc49f04696d64e62287e4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_Big.FBX using Guid(048cc648efc49f04696d64e62287e4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c6403baef24fd7ec958c7de843bc8ee2') in 0.010361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.002084 seconds.
+  path: Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_FW_Rolling_StandUp.FBX
+  artifactKey: Guid(79c7935f3f39ece47ad2908660c894a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_FW_Rolling_StandUp.FBX using Guid(79c7935f3f39ece47ad2908660c894a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9f8011113ebac52afee9f79c1a61acff') in 0.012149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 315
+========================================================================
+Received Import Request.
+  Time since last request: 0.005764 seconds.
+  path: Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_Smash_Double_Inplace.FBX
+  artifactKey: Guid(b8228c95bd497484997f59af4062c0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_Smash_Double_Inplace.FBX using Guid(b8228c95bd497484997f59af4062c0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e9aee7295cd3b4b9afa77c294b75b498') in 0.011256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.003197 seconds.
+  path: Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_Spear_Inplace.FBX
+  artifactKey: Guid(9c1cab0e6d1bdbb43a6c8842b005914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/Grruzam Powerful Sword Animation(Great Sword, Katana)/Animation/M_Katana_Blade/4_Damages/5__KnockDown/M_katana_Blade@KnockDown_Front_Spear_Inplace.FBX using Guid(9c1cab0e6d1bdbb43a6c8842b005914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c08ec8a02c3eeb2f001cdfbccba5a687') in 0.009458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 141
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Skeleton).prefab
+  artifactKey: Guid(4e3c7d56d063a904c9dad4bf2ccea5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicaCloth2/Example (Can be deleted)/UnityChan/SD_Kohaku_chanz/Utc_sum_humanoid (Skeleton).prefab using Guid(4e3c7d56d063a904c9dad4bf2ccea5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '28f365fca00ebb1f1b551bb70f8a275c') in 0.465118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 261

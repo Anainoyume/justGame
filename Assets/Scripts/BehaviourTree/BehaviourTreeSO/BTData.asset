@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d8d8a264ea4998bd9381326af68443, type: 3}
+  m_Name: BTData
+  m_EditorClassIdentifier: 
+  rootNode:
+    rid: 4300530998175072256
+  references:
+    version: 2
+    RefIds:
+    - rid: 4300530998175072256
+      type: {class: BTSequence, ns: BehaviourTree, asm: Assembly-CSharp}
+      data:
+        Guid: 97c12d8d-5c76-4856-a6dd-a90812d1d832
+        NodeName: BTSequence
+        Position: {x: -7.6000366, y: 234.66667}
+        ChildNodes:
+        - rid: 4300530998175072257
+        - rid: 4300530998175072258
+    - rid: 4300530998175072257
+      type: {class: Delay, ns: BehaviourTree, asm: Assembly-CSharp}
+      data:
+        Guid: 7470d648-8a2d-4ae8-b8dc-710f199e5f53
+        NodeName: Delay
+        Position: {x: 214, y: 138.66667}
+        ChildNode:
+          rid: 4300530998175072259
+        Timer: 1
+    - rid: 4300530998175072258
+      type: {class: Delay, ns: BehaviourTree, asm: Assembly-CSharp}
+      data:
+        Guid: 45523763-e0f4-4118-82ee-087fa3eb75d9
+        NodeName: Delay
+        Position: {x: 214, y: 346}
+        ChildNode:
+          rid: 4300530998175072260
+        Timer: 1
+    - rid: 4300530998175072259
+      type: {class: SetObjectActive, ns: BehaviourTree, asm: Assembly-CSharp}
+      data:
+        Guid: caeb3d8c-0e45-476b-a390-72eca6195a70
+        NodeName: SetObjectActive
+        Position: {x: 458.66663, y: 138.66669}
+        IsActive: 1
+        SelectObject: {fileID: 0}
+    - rid: 4300530998175072260
+      type: {class: SetObjectActive, ns: BehaviourTree, asm: Assembly-CSharp}
+      data:
+        Guid: d7c664bd-7373-4150-98ff-74e9b26f55b1
+        NodeName: SetObjectActive
+        Position: {x: 458.66663, y: 346}
+        IsActive: 0
+        SelectObject: {fileID: 0}

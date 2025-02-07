@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f42356e2854b978ce4ea084641c8f1, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  <PhysicsData>k__BackingField:
+    <Gravity>k__BackingField: 9.8
+    downVelocity: {x: 0, y: -2, z: 0}
+  <RotateData>k__BackingField:
+    <RotationTime>k__BackingField: 0.14
+  <MovementData>k__BackingField:
+    <WalkSpeedMultiplier>k__BackingField: 1.1
+    <RunSpeedMultiplier>k__BackingField: 1.2
+    <SprintSpeedMultiplier>k__BackingField: 1.2
+    <CentripetalVelocity>k__BackingField: 0.05
+  <TransitionSetting>k__BackingField:
+    <Transitions>k__BackingField:
+    - TransitionName: RunLoop_SlideFront
+      transitionSetting:
+        CrossFadeTime: 0.22
+        OffsetTime: 0
+    - TransitionName: RunLoop_RunStart
+      transitionSetting:
+        CrossFadeTime: 0
+        OffsetTime: 0
+    - TransitionName: RunAttack_SprintLoop
+      transitionSetting:
+        CrossFadeTime: 0.3
+        OffsetTime: 0
+    - TransitionName: RunAttack_DashFront
+      transitionSetting:
+        CrossFadeTime: 0.3
+        OffsetTime: 0

@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaClothV2", "MagicaClothV2.csproj", "{73033fb1-8d5a-b84f-07b1-379ab5cad1af}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaClothV2.Editor", "MagicaClothV2.Editor.csproj", "{837cb381-33f7-6d51-c6b9-48a5d19a35d0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{915b2253-2532-5a1a-614a-36b927b539c2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{ebd23724-47da-41fd-ad31-a3a60290de21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaCloth2UPMImporterShaderGraph", "MagicaCloth2UPMImporterShaderGraph.csproj", "{ab4a974f-8c4a-3b47-9ce9-6695cc49bb9d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaClothV2UPMImporterCollections", "MagicaClothV2UPMImporterCollections.csproj", "{20d10995-b733-24f0-008b-a765004f189a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicaClothV2UPMImporterBurst", "MagicaClothV2UPMImporterBurst.csproj", "{2ab92cb5-453d-77de-5e7b-986b4978466c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73033fb1-8d5a-b84f-07b1-379ab5cad1af}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73033fb1-8d5a-b84f-07b1-379ab5cad1af}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837cb381-33f7-6d51-c6b9-48a5d19a35d0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837cb381-33f7-6d51-c6b9-48a5d19a35d0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915b2253-2532-5a1a-614a-36b927b539c2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915b2253-2532-5a1a-614a-36b927b539c2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ebd23724-47da-41fd-ad31-a3a60290de21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ebd23724-47da-41fd-ad31-a3a60290de21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ab4a974f-8c4a-3b47-9ce9-6695cc49bb9d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ab4a974f-8c4a-3b47-9ce9-6695cc49bb9d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20d10995-b733-24f0-008b-a765004f189a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20d10995-b733-24f0-008b-a765004f189a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ab92cb5-453d-77de-5e7b-986b4978466c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ab92cb5-453d-77de-5e7b-986b4978466c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,361 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.50f1c1 (11690e56caf9) revision 1141006'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16010 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Editor\2022.3.50f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Project/JustTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56757
+Successfully changed project path to: E:/Unity/Project/JustTest
+E:/Unity/Project/JustTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45860]  Target information:
+
+Player connection [45860]  * "[IP] 26.192.160.31 [Port] 0 [Flags] 2 [Guid] 2348471368 [EditorId] 2348471368 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45860]  * "[IP] 192.168.6.1 [Port] 0 [Flags] 2 [Guid] 2348471368 [EditorId] 2348471368 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45860]  * "[IP] 192.168.246.1 [Port] 0 [Flags] 2 [Guid] 2348471368 [EditorId] 2348471368 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45860]  * "[IP] 192.168.1.32 [Port] 0 [Flags] 2 [Guid] 2348471368 [EditorId] 2348471368 [Version] 1048832 [Id] WindowsEditor(7,qjklw) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45860] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [45860] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 12.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.50f1c1 (11690e56caf9)
+[Subsystems] Discovering subsystems at path E:/Unity/Editor/2022.3.50f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Project/JustTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'E:/Unity/Editor/2022.3.50f1c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Editor/2022.3.50f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Editor/2022.3.50f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Editor/2022.3.50f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/Editor/2022.3.50f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004886 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.200 seconds
+Domain Reload Profiling: 455ms
+	BeginReloadAssembly (74ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (166ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.849 seconds
+Domain Reload Profiling: 1383ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (736ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (485.2 KB). Loaded Objects now: 6827.
+Memory consumption went from 286.2 MB to 285.7 MB.
+Total: 4.910200 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.176600 ms MarkObjects: 4.069700 ms  DeleteObjects: 0.296100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49113.006595 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash/CLazy@Esc_BoostDash_Back_L45_Root.FBX
+  artifactKey: Guid(ed588bdaa988e6a4291088fba5125f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash/CLazy@Esc_BoostDash_Back_L45_Root.FBX using Guid(ed588bdaa988e6a4291088fba5125f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0557ca43c00587dd34e13b640dcfc7b4') in 0.339980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 166
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Back_Root.FBX
+  artifactKey: Guid(7623c9e6a59cdd54d9060230336134e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Back_Root.FBX using Guid(7623c9e6a59cdd54d9060230336134e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ff7784b9027ff9eac116b583161647c5') in 0.043072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Stumble_Run/CLazy@Dam_Turn_Stumble_Right_Root.FBX
+  artifactKey: Guid(8ecb3ac0c6636ea42ba45776a6b1fa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Stumble_Run/CLazy@Dam_Turn_Stumble_Right_Root.FBX using Guid(8ecb3ac0c6636ea42ba45776a6b1fa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '824bad23fe5569521d2d3a57d324a4f1') in 0.032939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash/CLazy@Esc_BoostDash_Back_Ad_Root.FBX
+  artifactKey: Guid(c750af89ef7621a48895a09b6554d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash/CLazy@Esc_BoostDash_Back_Ad_Root.FBX using Guid(c750af89ef7621a48895a09b6554d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e5db49f1f70562cb21cf77b166f1269b') in 0.031851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Back_Ad.FBX
+  artifactKey: Guid(d5ad602f381618d488cfa2cd31698aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Back_Ad.FBX using Guid(d5ad602f381618d488cfa2cd31698aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '055c6c862ec792be45a3d01b00e7cde8') in 0.035244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Leap_Over_Die/CLazy@Dam_StandDie_Over_Start.FBX
+  artifactKey: Guid(f55e60d1ccddc91469c5c529a13dd3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Leap_Over_Die/CLazy@Dam_StandDie_Over_Start.FBX using Guid(f55e60d1ccddc91469c5c529a13dd3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'af41bf309c9d3b312b258918bdb32ab2') in 0.034182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_BoostDash_UpDown/CLazy@Esc_BoostDash_Down_Fwd.FBX
+  artifactKey: Guid(0d8ab51392e1ab04e9535af15eca74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_BoostDash_UpDown/CLazy@Esc_BoostDash_Down_Fwd.FBX using Guid(0d8ab51392e1ab04e9535af15eca74c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '83068501cd73a600d316b32799bac08b') in 0.033030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Running_Die/CLazy@Dam_TurnDie.FBX
+  artifactKey: Guid(8906f788a29691b4d8c189d50d6de43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Running_Die/CLazy@Dam_TurnDie.FBX using Guid(8906f788a29691b4d8c189d50d6de43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c56912f33d470a188881b0b96dc04dee') in 0.034412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_BoostDash_UpDown/CLazy@Esc_BoostDash_Down_Fwd_Root.FBX
+  artifactKey: Guid(56dcc62a23f030447be31ce6efe60a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_BoostDash_UpDown/CLazy@Esc_BoostDash_Down_Fwd_Root.FBX using Guid(56dcc62a23f030447be31ce6efe60a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4a29b293352ea2835d7c56a3f64a22ef') in 0.029940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Stumble_Run/CLazy@Dam_Turn_Stumble_Right.FBX
+  artifactKey: Guid(a70a5c6964589294da2168176c483c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Stumble_Run/CLazy@Dam_Turn_Stumble_Right.FBX using Guid(a70a5c6964589294da2168176c483c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ce9bdcdeb711bb4a4f1cd7bba0274c76') in 0.032897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash/CLazy@Esc_BoostDash_Back_Root.FBX
+  artifactKey: Guid(42badf555525ffe46978c7aa4863b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash/CLazy@Esc_BoostDash_Back_Root.FBX using Guid(42badf555525ffe46978c7aa4863b5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b3187692cef6510ddc87baf38cc4479f') in 0.032563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Back_R45.FBX
+  artifactKey: Guid(9736d4ceb8a7ac64b8c017a83d850b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Back_R45.FBX using Guid(9736d4ceb8a7ac64b8c017a83d850b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '388bf9780af54158b9a547f5632280a4') in 0.035730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Leap_Over_Die/CLazy@Dam_StandDie_Over2.FBX
+  artifactKey: Guid(a541349d036fa8e418ab36ad7b40e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P5_CLazyCollision/Dam_Leap_Over_Die/CLazy@Dam_StandDie_Over2.FBX using Guid(a541349d036fa8e418ab36ad7b40e5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '498fa27f3527f504a6c9714ebed72757') in 0.031089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Front_L45.FBX
+  artifactKey: Guid(1f27983b925d43a4188c111c3ee2e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Parts/CLazyRunnerActionAnimPack/Animations/P2_CLazyEscape/Esc_8way_BoostDash_Air/CLazy@Esc_BoostDash_Air_Front_L45.FBX using Guid(1f27983b925d43a4188c111c3ee2e917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fa4347333706b3b8d882215033e002ec') in 0.037338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
